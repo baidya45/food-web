@@ -587,7 +587,7 @@ body {
   }
 }
 @media(max-width:480px){
-  .nav{
-    width: 200px;
+  .header .nav {
+    width: 45vw;
   }
 }
