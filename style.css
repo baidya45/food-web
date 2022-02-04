@@ -397,6 +397,20 @@ body {
     font-weight: 400;
     font-family: "Dancing Script";
   }
+  
+  .menu-item:hover h3{
+    transition: all 0.5s;
+    color: var(--main-color);
+    transform: translateX(10px);
+  }
+  .menu-item:hover .menu-item-price{
+    transition: all 0.5s;
+    color: var(--white);
+  }
+  .menu-item:hover img{
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+  }
 
   .testimonial-sec{
     background-color: var(--dark);
@@ -501,7 +515,7 @@ body {
     position: relative;
     background-image: url('./img/footer-bg.jpg');
     z-index: -2;
-    height: 180px;
+    height: 380px;
     background-size: cover;
     width: 100%;
   }
@@ -512,15 +526,30 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #0c1023;
-    opacity: 0.5;
+    background-color: #13151b;
+    opacity: 0.7;
     z-index: -1;
   }
+  .footer-item{
+    width: 100%;
+  }
 
-  .footer-item h3{
+  .footer-item h3,
+  .footer-item p{
     margin-top: 20px;
     z-index: 1;
     color: var(--white);
+    text-align: center;
+    display: block;
+
+  }
+  .footer-item h3{
+    font-family: "Dancing Script";
+    color: var(--main-color);
+    font-size: 30px;
+  }
+  .footer-item p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
 
@@ -531,7 +560,7 @@ body {
   
   
 }
-@media(max-width:720px){
+@media(max-width:770px){
   .home-text h1{
     font-size: 45px;
     line-height: 60px;
@@ -562,6 +591,9 @@ body {
     font-weight: 400;
     font-size: 14px;
   }
+  .about-img .img-box::before{
+    top: 32%;
+  }
 
   .review-box{
     flex-direction: column;
@@ -575,19 +607,28 @@ body {
     margin: auto;
   }
   .team-item img{
-    transform: scale(0.5);
+    transform: scale(0.7);
   }
   .team-item-info{
     width: 50%;
-    top: 10%;
+    top: 50%;
   }
   .footer{
-    height: 250px;
+    height: 450px;
     padding: 10px;
   }
 }
 @media(max-width:480px){
   .header .nav {
     width: 45vw;
+    background-color: var(--main-color);
   }
+  .review-content{
+    width: 80%;
+    background-color: var(--main-color);
+  }
+  .review-content h3 span{
+    color: var(--dark);
+  }
+  
 }
