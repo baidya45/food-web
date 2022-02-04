@@ -602,6 +602,9 @@ body {
   .review-content{
     width: 70%;
   }
+  .review-content img{
+    width: 30%;
+  }
   .team-item{
     margin: auto;
   }
