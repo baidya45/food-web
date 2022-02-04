@@ -384,7 +384,7 @@ body {
   .item-title h3{
     font-size: 14px;
     text-transform: capitalize;
-    font-family: cursive;
+    font-family: "cursive";
     font-weight: 400;
   }
   .item-title img{
@@ -416,7 +416,6 @@ body {
     background-color: var(--dark);
   }
   .review-box{
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
    
