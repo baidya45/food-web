@@ -2,7 +2,6 @@ const navToggler = document.getElementById('btn');
 const nav = document.querySelector('.nav');
 const menuTab = document.querySelectorAll(".menu-tab-items")
 const menuContent = document.querySelectorAll(".menu-tab-content")
-console.log(menuContent);
 
 menuTab[0].addEventListener('click',()=>{
     menuTab[0].classList.add("active")
