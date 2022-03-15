@@ -172,7 +172,10 @@ body {
   background-position: center;
   position: relative;
   z-index: -2;
+<<<<<<< HEAD
   /* animation: zoomInOut 15s ease infinite; */
+=======
+>>>>>>> e2efab1a4ffd7e7772e268774dbd02492629acc0
  
 }
 .home-sec::before {
