@@ -172,7 +172,7 @@ body {
   background-position: center;
   position: relative;
   z-index: -2;
-  animation: zoomInOut 15s ease infinite;
+  /* animation: zoomInOut 15s ease infinite; */
  
 }
 .home-sec::before {
@@ -215,7 +215,7 @@ body {
   font-family: cursive;
 }
 
-.our-menu{
+.our-menu-btn{
   text-decoration: none;
   display: inline-block;
   padding: 10px 30px;
@@ -233,7 +233,7 @@ body {
   /* z-index: 100;  */
 }
 
-.our-menu:hover {
+.our-menu-btn:hover {
   color: var(--white);
   background-color: var(--main-color);
 }
@@ -362,7 +362,7 @@ body {
   .menu-tab-content{
     display: none;
   }
-  .menu-tab-content.active{
+  .menu-tab-content.active2{
     display: flex;
   }
   .menu-item{
